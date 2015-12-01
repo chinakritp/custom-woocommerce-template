@@ -1,0 +1,58 @@
+.woocommerce ul.products li.product {
+    margin: 0 2% 2% 0;
+    width: 23%;
+}
+.woocommerce ul.products li.product > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.woocommerce ul.products li.product .img-wrapper {
+    border: 1px solid #eee;
+    position: relative;
+}
+.woocommerce ul.products li.product > a:hover .img-wrapper > img {
+    opacity: 0.3;
+}
+.woocommerce ul.products li.product .img-wrapper > img {
+    margin: 0;
+    opacity: 1;
+    transition: 0.5s;
+}
+.woocommerce ul.products li.product > a:hover .img-wrapper > .btn {
+    opacity: 1;
+}
+.woocommerce ul.products li.product .img-wrapper > .btn {
+    left: 50%;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+.woocommerce ul.products li.product .onsale {
+    z-index: 99;
+}
+.woocommerce ul.products li.product .star-rating {
+    margin: 0 auto 0.5em;
+}
+.woocommerce ul.products li.product h3 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px 0 0;
+    padding: 0;
+}
+.woocommerce span.onsale {
+    background-color: #ce3232;
+    line-height: 3.2;
+    min-height: 3.8em;
+    min-width: 3.8em;
+}
+@media (max-width: 991px) {
+    .woocommerce ul.products li.product {
+        width: 48%;
+    }   
+}
