@@ -27,9 +27,9 @@ Apply **custom-shop.css** and **custom-shop.js** to site.<br>
 
 ## Change WooCommerce's description title
 
-Call function of *fn-change-description-title.js*
+Call function of **fn-change-description-title.js**
 
-e.g.<br>
+For example:<br>
 change_woo_title('Product Description', 'Property Description');<br>
 change_woo_title('Related Products', 'Related Properties');<br>
-**Reference: https://rogersprop.bypronto.com/wp-admin/post.php?post=369&action=edit**
+*Reference: https://rogersprop.bypronto.com/wp-admin/post.php?post=369&action=edit*
