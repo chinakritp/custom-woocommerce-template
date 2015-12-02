@@ -3,7 +3,7 @@ Custom WooCommerce Template
 # How to
 
 Main thing is **custom-main.less**, which you have to apply to site.<br>
-*Feel free to change color of button which are placed vary top of less file*
+*Feel free to change color of button which are placed very top of less file*
 
 ----------------------------
 
