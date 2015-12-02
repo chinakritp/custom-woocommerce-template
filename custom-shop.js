@@ -5,5 +5,5 @@ jQuery(document).ready(function(){
         $(this).find('a.button').appendTo($(this).find('.img-wrapper'));
     });
     
-    $('.woocommerce ul.products li.product a > .img-wrapper > a').addClass('btn');
+    $('.woocommerce ul.products li.product a > .img-wrapper > a, .woocommerce-page ul.products li.product a .img-wrapper > a').addClass('btn');
 });
