@@ -22,3 +22,14 @@ Apply **custom-quantity-minus-and-plus.js** to site.<br>
 
 Apply **custom-shop.css** and **custom-shop.js** to site.<br>
 *Suggestion: add into global footer with code snippets plugin*
+
+----------------------------
+
+## Change WooCommerce's description title
+
+Call function of *fn-change-description-title.js*
+
+e.g.<br>
+change_woo_title('Product Description', 'Property Description');<br>
+change_woo_title('Related Products', 'Related Properties');<br>
+**Reference: https://rogersprop.bypronto.com/wp-admin/post.php?post=369&action=edit**
