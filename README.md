@@ -28,7 +28,7 @@ Apply **custom-shop.css** and **custom-shop.js** to site.<br>
 ## Change WooCommerce's description title
 
 Call function of **fn-change-description-title.js** by<br>
-change_woo_title( {-- Selected word --} , {-- Replace Word --} );
+change_woo_title( {-- Selected word --} , {-- Replace word --} );
 
 For example:<br>
 change_woo_title('Product Description', 'Property Description');<br>
