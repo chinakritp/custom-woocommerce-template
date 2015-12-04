@@ -1,11 +1,11 @@
-Custom WooCommerce Template
+# Custom WooCommerce Template
 
 # How to
 
 Main thing is **custom-main.less**, which you have to apply to site.<br>
 *Feel free to change color of button which are placed very top of less file*
 
-----------------------------
+
 
 ## Custom [+] and [-] of product's quantity
 
@@ -14,7 +14,7 @@ Main thing is **custom-main.less**, which you have to apply to site.<br>
 Apply **custom-quantity-minus-and-plus.js** to site.<br>
 *Suggestion: add into global footer with code snippets plugin*
 
-----------------------------
+
 
 ## Custom Add to Cart button
 
@@ -23,7 +23,7 @@ Apply **custom-quantity-minus-and-plus.js** to site.<br>
 Apply **custom-shop.css** and **custom-shop.js** to site.<br>
 *Suggestion: add into global footer with code snippets plugin*
 
-----------------------------
+
 
 ## Change WooCommerce's description title
 
@@ -35,7 +35,7 @@ change_woo_title('Product Description', 'Property Description');<br>
 change_woo_title('Related Products', 'Related Properties');<br>
 *Reference: https://rogersprop.bypronto.com/wp-admin/post.php?post=369&action=edit*
 
-----------------------------
+
 
 ## Change WooCommerce's search placeholder
 
