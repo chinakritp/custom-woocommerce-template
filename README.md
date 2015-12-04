@@ -43,5 +43,5 @@ Call function of **fn-change-search-placeholder.js** by<br>
 change_woo_search( {-- Replace word --} );
 
 For example:<br>
-change_woo_search('Search Properties');
+change_woo_search('Search Properties');<br>
 *Reference: https://rogersprop.bypronto.com/wp-admin/post.php?post=369&action=edit*
